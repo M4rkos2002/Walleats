@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import {TipButtonComponent} from "./components/tip-button.component";
+import {CardInputDefaultComponent, CardInputSmallComponent} from "./components/card-input.component";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    const handleButtonClick = () => {
+        console.log('Botón clickeado');
+    };
+
+    return (
+        <div className="App">
+          <CardInputSmallComponent />
+            <CardInputDefaultComponent />
+        </div>
   );
 }
 

@@ -1,0 +1,41 @@
+.card-input-default {
+    width: 408px;
+}
+
+.card-input-small {
+    width: 176px;
+}
+
+.card-input-default,
+.card-input-small {
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    stroke: #BA8C8C;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-input-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.input-filed {
+    width: 100%;
+    height: 44px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #B7B7B7;
+    padding: 0 10px;
+    outline: none;
+}
+
+.input-filed::placeholder {
+    color: #B7B7B7;
+}

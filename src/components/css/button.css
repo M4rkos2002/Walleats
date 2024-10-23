@@ -1,0 +1,33 @@
+.button-default {
+  background-color: #C62828;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button-tip-selected {
+  background-color: #C62828;
+  stroke: #B32020;
+  border-radius: 6px;
+  width: 53px;
+  height: 38px;
+  color: #F5F5F5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button-tip-default {
+  background-color: #FCF7F2;
+  stroke: #F2D4C2;
+  border-radius: 6px;
+  width: 53px;
+  height: 38px;
+  color: #F5F5F5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
